@@ -11,5 +11,7 @@ namespace Domain.Models
         public int Anio { get; set; }
         public string Modelo { get; set; }
         public string Placa { get; set; }
+
+        public int NumeroPuertas { get; set; }
     }
 }

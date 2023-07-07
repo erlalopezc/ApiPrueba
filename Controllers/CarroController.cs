@@ -15,6 +15,11 @@ namespace ApiPrueba.Controllers
                 Carro.Placa = "BMW";
                 Carro.NumeroPuertas = 100;
             }
+            else if(Carro.Modelo == "X5")
+            {
+                Carro.Placa = "P232323";
+                Carro.NumeroPuertas = 4;
+            }
             return Ok(Carro);
             
 
